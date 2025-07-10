@@ -1,0 +1,120 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f8f6f7;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  width: 340px;
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.gitlab { background: #fc6d26; }
+.github { background: #24292f; }
+.bitbucket { background: #2684ff; }
+
+.workspace-list {
+  list-style: none;
+  padding: 0;
+}
+
+.workspace-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 12px 0;
+  font-size: 16px;
+}
+
+.workspace-list button {
+  background: black;
+  color: white;
+  font-size: 12px;
+  padding: 6px 10px;
+}
+
+code {
+  background: #f2f2f2;
+  padding: 4px 8px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+footer {
+  margin-top: 50px;
+  padding: 30px;
+  background: #f2f2f2;
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.footer div {
+  text-align: left;
+}
+
+.copy {
+  font-size: 14px;
+  color: #777;
+  margin: 0;
+}
+
+/* ✅ Yangi qism: Frame.svg va matn yonma-yon bo'lishi uchun */
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* chapga joylashadi */
+  gap: 10px;
+  margin-top: 20px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 30px;
+  width: 100%;
+}
+
+.footer-bottom img {
+  width: 24px;
+  height: auto;
+}
